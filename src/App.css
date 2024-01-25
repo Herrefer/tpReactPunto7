@@ -1,3 +1,13 @@
-.imagenAvatar{
-  width: 300px;
+@media all and (min-width: 0px) and (max-width: 575px){
+  #root h5{
+    font-size: 16px;
+  }
+  #root p{
+    font-size: 14px;
+    padding: 2px;
+  }
+  #root img{
+    width: 60px;
+    min-width: 60px;
+  }
 }
