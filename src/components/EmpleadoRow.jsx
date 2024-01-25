@@ -1,6 +1,6 @@
 import { ListGroup } from "react-bootstrap";
 import EmpleadoAvatar from "./EmpleadoAvatar";
-
+import "../empleadoRow.css"
 const EmpleadoRow = ({nombreProps, tituloProps, departamentoProps, avatarProps}) => {
   return (
     <div>
@@ -10,10 +10,10 @@ const EmpleadoRow = ({nombreProps, tituloProps, departamentoProps, avatarProps})
           <h5>{nombreProps}</h5>
           <div className="d-flex flex-row">
             <div className="me-4">
-              <p>{tituloProps}</p>
+              <p className="tituloStyle">{tituloProps}</p>
             </div>
             <div>
-              <p>{departamentoProps}</p>
+              <p className="departamentoStyle">{departamentoProps}</p>
             </div>
           </div>
         </div>

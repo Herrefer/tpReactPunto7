@@ -1,3 +1,5 @@
 .imagenAvatar {
   width: 100px;
+  border-radius: 100%;
+  border: solid 2px #F8E559;
 }
