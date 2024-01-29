@@ -8,7 +8,7 @@ const EmpleadoRow = ({nombreProps, tituloProps, departamentoProps, avatarProps})
         <EmpleadoAvatar avatarProps={avatarProps}></EmpleadoAvatar>
         <div>
           <h5>{nombreProps}</h5>
-          <div className="d-flex flex-row">
+          <div className="d-flex">
             <div className="me-4">
               <p className="tituloStyle">{tituloProps}</p>
             </div>
